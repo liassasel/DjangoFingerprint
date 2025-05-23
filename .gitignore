@@ -4,3 +4,55 @@ venv
 ./core/.env
 .env
 /.env
+
+# Directorios de Python generados
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+venv/
+
+*.sqlite3
+*.db
+
+.env
+
+media/
+
+staticfiles/
+
+*.log
+*.log.*
+
+.idea/                 # Directorio de PyCharm/IntelliJ
+.vscode/               # Directorio de VS Code
+*.sublime-project
+*.sublime-workspace
+.DS_Store              # Archivos de macOS
+Thumbs.db              # Archivos de Windows
+
+# Cobertura de tests
+.coverage
+.coverage.*
+htmlcov/
+
+# Python-specific
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
