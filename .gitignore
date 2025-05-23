@@ -1,9 +1,14 @@
-venv
 .venv/
 /core/.env
 ./core/.env
 .env
 /.env
+
+/core/.env
+./core/.env
+.env
+/.env
+
 
 # Directorios de Python generados
 __pycache__/
